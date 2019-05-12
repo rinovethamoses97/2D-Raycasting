@@ -8,7 +8,7 @@ class Ray{
         this.pos.y=y;
     }
     show(){
-        stroke(255);
+        stroke(229, 224, 91);
         line(this.pos.x,this.pos.y,(this.dir.x*10)+this.pos.x,(this.dir.y*10)+this.pos.y);
     }
     intersect(walls){

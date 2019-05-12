@@ -22,7 +22,7 @@ class Particle{
         for(var i=0;i<this.rays.length;i++){
             var result=this.rays[i].intersect(walls);
             if(result.status){
-                stroke(255,0,0);
+                stroke(229, 224, 91);
                 fill(255);
                 line(this.pos.x,this.pos.y,result.x,result.y);
             }
